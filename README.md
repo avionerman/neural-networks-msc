@@ -6,11 +6,11 @@ Consolidated report bundle for the PyFlyt fixed-wing DRL study.
 
 - **`[DONE] pyflyt_drl_fixedwing_ppo_and_sac_phase_1.ipynb`** — original main training notebook **✔️**
 - **`[DONE] pyflyt_drl_fixedwing_tqc_phase_2.ipynb`** — TQC re-training notebook **✔️**
-- **`[DONE] pyflyt_drl_fixedwing_3D_visual_results_phase_3.ipynb`** — working Colab notebook with all rendered figures inline (fixed version with all bug fixes baked in) **✔️**
+- **`[DONE] pyflyt_drl_fixedwing_3D_visual_results_phase_3.ipynb`** — working Colab notebook with all rendered figures inline **✔️**
 
 ## `models/`
 
-- **`models_for_3d.zip`** — 9 SB3 final-step checkpoints (PPO/SAC/TQC, seeds 0–2). Upload to Colab.
+- **`models_for_3d.zip`** — 9 SB3 final-step checkpoints (PPO/SAC/TQC, seeds 0–2).
 - **`best_models_for_3d.zip`** — 9 SB3 best-during-training checkpoints (saved by `EvalCallback` at peak mean reward).
 
 ## `aggregated_results/` — the gold: everything aggregated, ready for the report
